@@ -7,16 +7,6 @@
   box-sizing: border-box;
 }
 
-body {
-  overflow-x: hidden;
-}
-
-header {
-  background-color: #d1c480;
-  height: 100%;
-  align-content: center;
-}
-
 /* Barra de navegación */
 .navbar-brand {
   height: 100%;
@@ -68,6 +58,16 @@ footer h6 {
 }
 
 /* Página de inicio */
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #d1c480;
+  height: 100%;
+  align-content: center;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -179,6 +179,16 @@ footer h6 {
   }
 }
 /*quienes somos*/
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #d1c480;
+  height: 100%;
+  align-content: center;
+}
+
 .quienesSomosPrincipal {
   padding: 20px;
 }
@@ -204,6 +214,16 @@ footer h6 {
 }
 
 /*La Raza*/
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #d1c480;
+  height: 100%;
+  align-content: center;
+}
+
 .laRazaInfo {
   padding: 20px;
 }
@@ -266,6 +286,16 @@ footer h6 {
 }
 
 /*Cachorros*/
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #d1c480;
+  height: 100%;
+  align-content: center;
+}
+
 .cachorros {
   padding: 20px;
 }
@@ -277,6 +307,16 @@ footer h6 {
 }
 
 /*Contacto*/
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #d1c480;
+  height: 100%;
+  align-content: center;
+}
+
 .contacto {
   padding: 20px;
 }
