@@ -1,0 +1,60 @@
+.laRazaInfo{
+    padding: 20px;
+}
+
+.laRaza img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 1px solid black
+}
+
+.laRaza{
+    width: 100%;
+    display: flex;
+}
+
+.laRaza-body{
+    padding: 10px;
+}
+
+.caracteristicasRazaInfo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
+    gap: 20px;
+    background-color: #d1c480;
+}
+
+.caracreristicasRaza{
+width: 100%
+}
+
+.video{
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    overflow: hidden;
+}
+
+.video iframe{
+    position: absolute;
+    width: 100%;
+    height: 100;
+    }
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #ffffff; /* Cambia el color de fondo del botón */
+    color: #000; /* Cambia el color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px; /* Espacio entre el párrafo y el botón */
+    }
+    
+.boton:hover {
+    background-color: #f9f9fa; /* Cambia el color de fondo del botón al pasar el ratón */
+    }

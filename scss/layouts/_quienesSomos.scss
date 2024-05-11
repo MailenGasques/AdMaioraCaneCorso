@@ -1,0 +1,23 @@
+.quienesSomosPrincipal{
+    padding: 20px;
+}
+
+.quienesSomos{
+    width: 100%;
+    display: flex;
+}
+
+.card-quienesSomos{
+    background-color: #d1c480;
+    padding: 10px;
+}
+
+.card-quienesSomos img{
+    height: 300px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.paginaQuienesSomos article {
+    width: 40%;
+}
