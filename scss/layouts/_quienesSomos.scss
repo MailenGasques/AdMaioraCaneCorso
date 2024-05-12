@@ -1,5 +1,16 @@
+.header {
+    @include header;
+}
+
+.body{
+    @include body;
+}
+
 .quienesSomosPrincipal{
     padding: 20px;
+    h1{
+        @include estilo-h1;
+    }
 }
 
 .quienesSomos{
@@ -8,7 +19,7 @@
 }
 
 .card-quienesSomos{
-    background-color: #d1c480;
+    background-color: $w-primary-color;
     padding: 10px;
 }
 
@@ -24,12 +35,12 @@
 
 @media (max-width: 768px) {
     .card {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
     }
-  }
-  
-  @media (max-width: 992px) {
+}
+
+@media (max-width: 992px) {
     .offcanvas-header h5 {
-      font-size: 1.5rem; 
+    font-size: 1.5rem; 
     }
-  }
+}
