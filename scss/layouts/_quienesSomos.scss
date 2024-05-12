@@ -21,3 +21,15 @@
 .paginaQuienesSomos article {
     width: 40%;
 }
+
+@media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .offcanvas-header h5 {
+      font-size: 1.5rem; 
+    }
+  }

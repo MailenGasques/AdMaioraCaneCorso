@@ -1,7 +1,13 @@
-footer {
-    padding: 20px;
+.footer {
+    padding: 10px;
     text-align: center;
     position: relative;
+    
+    h6 {
+        display: inline-block;
+        vertical-align: middle;
+        gap: 10px;
+    }
 }
 
 .divisor {
@@ -17,16 +23,9 @@ footer figure {
     display: inline-block;
     vertical-align: middle;
     margin-right: 20px;
-}
-
-footer figure i {
-    font-size: 30px;
-    margin-top: 15px;
-    color: black;
-}
-
-footer h6 {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 10px;
+    i {
+        font-size: 30px;
+        margin-top: 15px;
+        color: black;
+    }
 }
