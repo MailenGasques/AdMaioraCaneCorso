@@ -24,13 +24,29 @@
 }
 
 .card-quienesSomos img{
-    height: 300px;
+    height: 100%;
     object-fit: cover;
     margin-top: 40px;
+    width: 100%;
+}
+
+.card-quienes {
+    width: 50%;
+    height: 500px;
+}
+.quienes-somos {
+    justify-content:space-between;
+} 
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .paginaQuienesSomos article {
-    width: 40%;
+    width: 50%;
 }
 
 @media (max-width: 768px) {
