@@ -25,8 +25,14 @@
     }
     .card-body{
         gap: 10px;
+        .card-text p{
+            align-items: center;
+            justify-content: center;
+        }
+        
     }
 }
+
 
 .caracteristicasRazaInfo{
     display: grid;
@@ -63,13 +69,19 @@
     text-align: center;
     align-items: center;
     background-color: $w-primary-color; 
-    color: #000; 
-    text-decoration: none;
     border-radius: 5px;
-    margin-top: 10px; 
+    margin-top: 10px;
+    cursor: pointer;
     &:hover {
         background-color: $w-secondary-color; 
         }
+}
+
+.boton a{
+    color: black;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
 }
 
 

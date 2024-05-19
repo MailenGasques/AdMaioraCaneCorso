@@ -12,3 +12,14 @@
     background-color: $w-primary-color;
     height: 100%;
 }
+
+.offcanvas-body ul li a {
+color: black;
+border-radius: 10px;
+transition: 10seg;
+gap: 10px;
+    &:hover{
+        background-color: $w-secondary-color;
+        color:rgb(70, 69, 69)
+}
+}
