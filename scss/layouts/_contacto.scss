@@ -43,11 +43,11 @@
         cursor: pointer; 
 
         &:hover {
-            background-color: $w-primary-color; 
+            background-color: $w-secondary-color; 
         }
 
         &:active {
-            background-color: $w-primary-color; 
+            background-color: $w-secondary-color; 
         }
     }
 }
