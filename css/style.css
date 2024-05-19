@@ -186,37 +186,31 @@ footer figure i {
   font-size: 30px;
 }
 
-.quienesSomos {
-  width: 100%;
-  display: flex;
-}
-
 .card-quienesSomos {
   background-color: #d1c480;
   padding: 10px;
+  min-height: 500px;
+  max-height: 100%;
 }
 
 .card-quienesSomos img {
-  height: 100%;
-  object-fit: cover;
-  margin-top: 40px;
   width: 100%;
-}
-
-.card-quienes {
-  width: 50%;
-  height: 500px;
-}
-
-.quienes-somos {
-  justify-content: space-between;
+  height: 100%;
+  border-radius: 10px;
+  gap: 10px;
+  object-fit: cover;
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.quienesSomos {
+  justify-content: space-between;
 }
 
 .paginaQuienesSomos article {
